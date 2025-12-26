@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ObservableScrollView">
+
+        <!-- Parallax movement speed (default = 0.5f) -->
+        <!-- 0.0 = no parallax, 1.0 = same as scroll, 2.0 = double speed -->
+        <attr name="parallaxMultiplier" format="float" />
+
+        <!-- Enable / Disable scroll callbacks (default = true) -->
+        <attr name="scrollTrackingEnabled" format="boolean" />
+
+        <!-- Minimum scroll distance in pixels before notifying (default = 0) -->
+        <attr name="scrollThreshold" format="integer" />
+
+        <!-- Toolbar background start color (default = transparent) -->
+        <attr name="toolbarStartColor" format="color" />
+
+        <!-- Toolbar background end color (default = black) -->
+        <attr name="toolbarEndColor" format="color" />
+
+        <!-- Enable sticky header behavior (default = false) -->
+        <attr name="enableSticky" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
