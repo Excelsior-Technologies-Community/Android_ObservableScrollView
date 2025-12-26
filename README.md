@@ -1,6 +1,7 @@
 # **ObservableScrollView Android Library**
 
 ---
+
 ObservableScrollView is a custom ScrollView for Android that enhances the standard ScrollView with features like:
 
 - **Parallax header scrolling**
@@ -29,34 +30,19 @@ It’s easy to integrate, fully configurable via XML attributes or programmatica
 
 - Sticky header support
 
-
-
-
-
-
-
-
-
-
   ---
 
 # **Preview**
 ---
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4b943fe5-0d30-43ce-8f67-3f4340ab2fff"
-       alt="Demo GIF"
-       width="200">
-
-
-
-</p>
+<img src="assets/demovideo.gif" height="320"/>
 
 
 ## ⚡ **Installation**
 
 **Step 1:** Add JitPack repository to your root build.gradle:
 
-```gradle
+```
+gradle
 maven { url = uri("https://jitpack.io") }
 ```
 
@@ -65,7 +51,6 @@ maven { url = uri("https://jitpack.io") }
 ```gradle
 dependencies {
 	        	        implementation 'com.github.Excelsior-Technologies-Community:Android_Popup_Dialog:1.0.0'
-
 
 }
 ```
@@ -91,8 +76,6 @@ dependencies {
     <!-- Scrollable content here, e.g., LinearLayout with ImageView and Cards -->
 
 </com.ext.android_observable_scroll_view.ObservableScrollView>
-
-
 
 ```
 
@@ -126,8 +109,6 @@ scrollView.bindToolbar(
     fadeHeight = 400
 )
 
-
-
 ```
 **Setup Parallax Header**
 
@@ -144,8 +125,6 @@ scrollView.setScrollViewListener(object : ObservableScrollViewListener {
 
     override fun onScrollStateChanged(scrollView: ObservableScrollView, state: ObservableScrollView.ScrollState) {}
 })
-
-
 
 ```
 
