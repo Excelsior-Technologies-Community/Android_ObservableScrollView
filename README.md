@@ -34,7 +34,7 @@ It’s easy to integrate, fully configurable via XML attributes or programmatica
 
 # **Preview**
 ---
-<img src="assets/demovideo.gif" height="320"/>
+<img src="https://github.com/S13reya/Android_ObservableScrollView/blob/stages/app/src/main/assets/demovideo.gif" height="320"/>
 
 
 ## ⚡ **Installation**
